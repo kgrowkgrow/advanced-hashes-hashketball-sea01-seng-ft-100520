@@ -130,8 +130,10 @@ end
 def num_points_scored(player)
   game_hash.each do |team, tcp_hash|            #remember to return right value cuz each won't
     tcp_hash.each do |tcp_key, tcp_value|
-      tcp_value.each do |player_value|
+      if tcp_value != :team_name || :colors 
+        tcp_value.each do |player_value|
         binding.pry
+        end
       end 
     end 
   end 
