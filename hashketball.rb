@@ -131,8 +131,8 @@ end
 def num_points_scored(player_name)
   player_list = game_hash[:home][:players]
   binding.pry
-  game_hash.each do |location, team_data|
-    team_data.each do |attribute, data|
+  game_hash.map |location, team_data|
+    team_data.map |attribute, data|
       if data == player_list
         puts 'deoeoeoeoeo'
       end 
