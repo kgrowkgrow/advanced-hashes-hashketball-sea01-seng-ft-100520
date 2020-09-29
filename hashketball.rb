@@ -132,7 +132,8 @@ def num_points_scored(player_name)
   player_list = game_hash[:home][:players]
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
-      if data == :players
+      if data == player_list
+        puts 'deoeoeoeoeo'
       end 
     end
   end
