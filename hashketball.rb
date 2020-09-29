@@ -132,7 +132,6 @@ def num_points_scored(player)
     tcp_hash.each do |tcp_key, tcp_value|
       if tcp_value = :players #next is array
         puts 'kevin'
-       binding.pry
       end 
     end 
   end 
