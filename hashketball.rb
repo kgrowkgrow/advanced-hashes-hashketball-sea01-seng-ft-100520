@@ -131,7 +131,7 @@ end
 def num_points_scored(player_name)
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
-      data.each do |data_item|
+      data.filter 
           binding.pry
       end
     end
