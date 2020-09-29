@@ -131,7 +131,7 @@ end
 def num_points_scored(player_name)
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
-      data.filter 
+      data.filter {|data_piece| data_piece = :players|
           binding.pry
       end
     end
