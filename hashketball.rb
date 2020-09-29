@@ -184,7 +184,9 @@ def player_numbers(team_name)
   return team_numbers
 end 
 
-
+def player_stats(player_name)
+  stats = {}
+end 
 
 
 
