@@ -176,7 +176,7 @@ def team_numbers(team_name)
   team_numbers = []
   game_hash.each do |location, team_data|
     if team_data[:team_name] == team_name
-      team_data[].each do |what|
+      team_data.each do |what|
         binding.pry 
       end 
     end 
