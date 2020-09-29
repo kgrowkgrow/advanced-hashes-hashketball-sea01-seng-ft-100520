@@ -197,8 +197,8 @@ def player_stats(player_name)
 end 
 
 def big_shoe_rebounds
-  rebounds = nil
-  biggest_shoes = nil
+  rebounds = 0
+  biggest_shoes = 0
   game_hash.each do |location, team_data|
     team_data[:players].each do |attribute|
       binding.pry
