@@ -177,7 +177,6 @@ def player_numbers(team_name)
   game_hash.each do |location, team_data|
     if team_data[:team_name] == team_name
       team_data.each do |name_array|
-        binding.pry
         team_numbers.push(name_array[:team_name])
       end 
     end 
