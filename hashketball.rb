@@ -131,8 +131,8 @@ def num_points_scored(player)
   game_hash.each do |team, tcp_hash|            #remember to return right value cuz each won't
     tcp_hash.each do |tcp_key, tcp_value|
       if tcp_value == :players #next is array
+       binding.pry
       puts "kevin"
-        binding.pry
       end 
     end 
   end 
